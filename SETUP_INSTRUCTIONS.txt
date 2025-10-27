@@ -1,0 +1,107 @@
+====================================================
+EARTHQUAKE VISUALIZER - SETUP INSTRUCTIONS
+====================================================
+
+🎯 Project Complete! Ready to run.
+
+QUICK START:
+1. Open terminal in this directory
+2. Run: npm install
+3. Run: npm run dev
+4. Open browser: http://localhost:3000
+
+====================================================
+WHAT YOU HAVE:
+====================================================
+
+✅ Complete React + Vite project
+✅ Tailwind CSS for styling
+✅ React Leaflet for interactive map
+✅ USGS API integration
+✅ All required features implemented
+✅ Bonus features (CSV export, tests)
+✅ Documentation and deployment guides
+
+====================================================
+MAIN FEATURES:
+====================================================
+
+- Interactive world map with earthquake markers
+- Color-coded markers (green/yellow/orange/red by magnitude)
+- Filter by minimum magnitude
+- Search earthquakes by location
+- Sort by time or magnitude
+- Click list items to view earthquake on map
+- Export filtered data to CSV
+- Responsive design (mobile & desktop)
+- Auto-refresh every 5 minutes
+- Error handling and loading states
+
+====================================================
+PROJECT STRUCTURE:
+====================================================
+
+src/
+  ├── App.jsx              # Main app with state
+  ├── main.jsx             # Entry point
+  ├── index.css            # Global styles
+  ├── components/          # All UI components
+  │   ├── MapView.jsx
+  │   ├── MarkerLayer.jsx
+  │   ├── EarthquakeList.jsx
+  │   ├── Filters.jsx
+  │   ├── SearchBar.jsx
+  │   ├── Legend.jsx
+  │   └── __tests__/
+  └── services/
+      └── usgs.js          # API integration
+
+====================================================
+IMPORTANT FILES:
+====================================================
+
+📄 README.md               - Full documentation
+📄 AI_USAGE.md             - AI disclosure for submission
+📄 PROJECT_SUMMARY.md      - Feature overview
+📄 QUICK_START.md          - Quick setup guide
+
+====================================================
+NEXT STEPS:
+====================================================
+
+1. Test locally:
+   npm install
+   npm run dev
+
+2. Deploy to Vercel:
+   - Push to GitHub
+   - Import in Vercel
+   - Build: npm run build
+   - Deploy!
+
+3. For CodeSandbox:
+   - Go to codesandbox.io
+   - Import from GitHub
+   - Auto-detects Vite config
+
+4. Add Candidate ID to README (already done)
+
+5. Submit your solution!
+
+====================================================
+TROUBLESHOOTING:
+====================================================
+
+Issue: Map not showing
+Fix: Check browser console for errors
+
+Issue: No earthquakes
+Fix: Check USGS API status, adjust filters
+
+Issue: Build fails
+Fix: Delete node_modules, run npm install again
+
+====================================================
+
+Good luck! 🚀
+
